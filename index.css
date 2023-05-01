@@ -1,0 +1,268 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    display: flex;
+    gap: 25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(100deg, red, blue,wheat,green);
+    width: 100%;
+    height: 55px;
+}
+#congrats{
+    width: 350px;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0);
+    font-size:30px;
+}
+#span{
+    display: flex;
+}
+#span div{
+    border: solid;
+    /* width: 110px;
+    height: 40px; */
+    background-color: white;
+}
+#head_result{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    font-size:30px;
+    width: 110px;
+    height: 40px;
+}
+#head_live{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    font-size:30px;
+    width: 250px;
+    height: 40px;
+}
+
+#btn_restart{
+    width: 160px;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0);
+    border-color: wheat;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn_restart:hover{
+    background-color: rgba(255, 255, 255, 0.19);
+}
+#paragraphy{
+    text-align: center;
+    font-size: 45px;
+    
+}
+#main {
+    margin: 1.5%;
+    text-align: center;
+    width:40%;
+    background: linear-gradient(135deg, red 40%, blue 10%,wheat,green);
+    margin: 0 0 0 550px;
+}
+
+#main button {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    width: 60px;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    font-size: 17px;
+    color: black;
+}
+
+/* Mobile Styles */
+@media only screen and (min-width: 320px) {
+  body {
+    width: 100%;
+  } 
+  #header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px;
+  }
+
+  #span{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+  }
+  #span div{
+      width: 100%;
+      height: 40px;
+  }
+  #paragraphy{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  #main {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      width: 100%;
+  }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    width: 100%;
+  } 
+  #header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px;
+  }
+
+  #span{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+  }
+  #span div{
+      width: 100%;
+      height: 40px;
+  }
+  #paragraphy{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  #main {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      width: 100%;
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(100deg, red, blue,wheat,green);
+    width: 100%;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+}
+#congrats{
+    width: 300px;
+    height: 40px;
+    font-size:30px;
+}
+#span{
+    display: flex;
+    flex-direction: row;
+}
+#span div{
+    width: 250px;
+    height: 40px;
+    gap: none;
+    margin: 0;
+}
+#head_result{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    font-size: 30px;
+}
+#head_live{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    font-size:30px;
+    width: 130px; 
+}
+
+#btn_restart{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0);
+    border-color: wheat;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn_restart:hover{
+    background-color: rgba(255, 255, 255, 0.19);
+}
+#paragraphy{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+#main {
+    margin: 1.5%;
+    text-align: center;
+    width:40%;
+    background: linear-gradient(135deg, red 40%, blue 10%,wheat,green);
+    margin: 0 0 0 550px;
+}
+
+#main button {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    width: 60px;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    font-size: 17px;
+    color: black;
+}
+}
